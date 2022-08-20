@@ -8,7 +8,7 @@ function Phone({ prevImg, currImg }) {
   const imgArr = [img1, img2, img3, img4]
   const [openClass, setOpenClass] = useState('')
   const [closeClass, setCloseClass] = useState('')
-  console.log(prevImg,currImg)
+  
   useEffect(() => {
     setOpenClass('')
     setCloseClass('')

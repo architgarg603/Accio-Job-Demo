@@ -28,7 +28,7 @@
 .close,.open{
     position: relative;
     animation-direction: normal;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: closing;
     animation-fill-mode: forwards;
 }
